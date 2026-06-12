@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Build de produção
+dist/
+
+# Cobertura de testes
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Claude Code (configurações locais da máquina)
+.claude/settings.local.json
